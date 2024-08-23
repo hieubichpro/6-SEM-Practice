@@ -71,6 +71,8 @@ namespace RainwayStation
                     trackTmp.CurrTrains.Add(train);
                     train.PlatformAssigned = platformTmp.Id;
                     train.TrackAssigned = trackTmp.Id;
+                    train.WasPlaned = true;
+                    train.setSpeed();
                 }
                     
             }
