@@ -13,14 +13,14 @@ namespace RainwayStation
     public partial class Form2 : Form
     {
         private Station station;
-        public static DateTime fastTime;
+        public static DateTime fastTime = new DateTime(2024, 8, 23, 12, 0, 0);
         private int speedFactor = 15;
         public Form2(Station station)
         {
 
             InitializeComponent();
             this.station = station;
-            fastTime = DateTime.Now;
+            //fastTime = DateTime.Now;
             timer1.Interval = 100;
             timer1.Start();
             fill(station.Trains);
