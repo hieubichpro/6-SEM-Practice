@@ -8,6 +8,7 @@ C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayS
 C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayStation.exe
 C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayStation.pdb
 C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayStation.Form2.resources
+<<<<<<< HEAD
 C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.AssemblyReference.cache
 C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.Form2.resources
 C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.Properties.Resources.resources
@@ -18,3 +19,16 @@ C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj
 C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.exe.config
 C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.exe
 C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.pdb
+=======
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.exe.config
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.exe
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.pdb
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.AssemblyReference.cache
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.SuggestedBindingRedirects.cache
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.Form2.resources
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.Properties.Resources.resources
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.GenerateResource.cache
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.CoreCompileInputs.cache
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.exe
+E:\My_semester_6\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.pdb
+>>>>>>> 184db03c84e94e306bd618d49a23799f7bff9c94

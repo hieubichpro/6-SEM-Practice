@@ -37,8 +37,13 @@ namespace RainwayStation
             };
 
             var station = new Station("Center Station", platForms);
+<<<<<<< HEAD
             int hourTest = 23;
             int minuteTest = 27;
+=======
+            int hourTest = 20;
+            int minuteTest = 50;
+>>>>>>> 184db03c84e94e306bd618d49a23799f7bff9c94
             var trains = new List<Train>
             {
                 new Train(1, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(17, 20, 0), "Moscow - Kazan", "passing"),
