@@ -8,3 +8,13 @@ C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayS
 C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayStation.exe
 C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayStation.pdb
 C:\Users\abcd2\OneDrive\Desktop\RainwayStation\RainwayStation\obj\Debug\RainwayStation.Form2.resources
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.AssemblyReference.cache
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.Form2.resources
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.Properties.Resources.resources
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.GenerateResource.cache
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.csproj.CoreCompileInputs.cache
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.exe
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\obj\Debug\RainwayStation.pdb
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.exe.config
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.exe
+C:\Users\abcd2\OneDrive\Desktop\6-SEM-HIEU\6-SEM-Practice\src\RainwayStation\bin\Debug\RainwayStation.pdb

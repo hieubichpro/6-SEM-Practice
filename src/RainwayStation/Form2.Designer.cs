@@ -62,7 +62,6 @@ namespace RainwayStation
             this.Время = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Платформа = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Путь = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.bg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -389,10 +388,6 @@ namespace RainwayStation
             this.Путь.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Путь.Width = 200;
             // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,6 +470,5 @@ namespace RainwayStation
         private System.Windows.Forms.ColumnHeader Время;
         private System.Windows.Forms.ColumnHeader Платформа;
         private System.Windows.Forms.ColumnHeader Путь;
-        private System.Windows.Forms.Timer timer2;
     }
 }

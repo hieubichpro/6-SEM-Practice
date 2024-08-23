@@ -17,19 +17,20 @@ namespace RainwayStation
         private int speedFactor = 15;
         public Form2(Station station)
         {
+
             InitializeComponent();
             this.station = station;
             fastTime = DateTime.Now;
             timer1.Interval = 100;
             timer1.Start();
-            timer2.Interval = 1000;
-            timer2.Start();
+            fill(station.Trains);
+            //timer2.Interval = 1000;
+            //timer2.Start();
         }
 
         public Station Station { get => station; set => station = value; }
         public void fill(List<Train> trains)
         {
-            listView1.Items.Clear();
             foreach (var train in trains.OrderBy(t => t.DepartureTime))
             {
                 string platform = train.PlatformAssigned == 0 ? "-" : train.PlatformAssigned.ToString();
@@ -41,12 +42,12 @@ namespace RainwayStation
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            station.Schedule(fastTime.TimeOfDay);
+            //station.Schedule(fastTime.TimeOfDay);
             foreach (var train in station.Trains.OrderBy(t => t.DepartureTime))
             {
                 if (!train.HasDrawn && train.WasPlaned && Math.Abs(train.DepartureTime.TotalSeconds - fastTime.TimeOfDay.TotalSeconds) <= 10)
                 {
-                    Console.WriteLine(train.TrackAssigned);
+                    //Console.WriteLine(train.TrackAssigned);
                     train.Pic.Location = Train.positions[(int)train.TrackAssigned];
                     Controls.Add(train.Pic);
                     train.Pic.BringToFront();
@@ -84,9 +85,9 @@ namespace RainwayStation
             currTime.Text = fastTime.ToString("HH:mm:ss") + " MCK";
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-            fill(station.Trains);
-        }
+        //private void timer2_Tick(object sender, EventArgs e)
+        //{
+        //    fill(station.Trains);
+        //}
     }
 }

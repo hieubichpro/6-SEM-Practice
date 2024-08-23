@@ -37,8 +37,8 @@ namespace RainwayStation
             };
 
             var station = new Station("Center Station", platForms);
-            int hourTest = 20;
-            int minuteTest = 5;
+            int hourTest = 23;
+            int minuteTest = 27;
             var trains = new List<Train>
             {
                 new Train(1, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(17, 20, 0), "Moscow - Kazan", "passing"),
@@ -58,8 +58,16 @@ namespace RainwayStation
             {
                 station.AddTrain(train);
             }
+            station.Schedule();
+            //foreach (var train in station.Trains)
+            //{
+            //    Console.WriteLine("Train ${train.Id]}");
+            //    Console.WriteLine(train.DepartureTime);
+            //    Console.WriteLine(train.PlatformAssigned);
+            //    Console.WriteLine(train.TrackAssigned);
+            //    Console.WriteLine("");
+            //}
             Application.Run(new Form2(station));
-            //station.Schedule();
             //foreach (var train in station.Trains)
             //{
             //    Console.WriteLine($"{train.PlatformAssigned},  {train.TrackAssigned}");
