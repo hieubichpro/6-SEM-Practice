@@ -26,6 +26,7 @@
 \end{itemize}
 
 \subsection{Реализация программы}
+Ниже, на листингах 1--4, приведены реализации классов, сделанны студентом Ву Хай Данг.
 \begin{lstlisting}[caption={Класс Station}, label={lst:station}]
 public class Station
 {
@@ -48,48 +49,55 @@ public class Station
 		this.trains.Add(train);
 	}
 	
-	public void Schedule(TimeSpan currentTime)
+	public void Schedule()
 	{
 		foreach (var train in trains.OrderBy(t => t.DepartureTime))
 		{
-			if (!train.WasPlaned && (Math.Abs(currentTime.TotalMinutes - train.DepartureTime.TotalMinutes) <= 3))
+			TimeSpan minTime = new TimeSpan(23, 59, 59);
+			Platform platformTmp = null;
+			Track trackTmp = null;
+			foreach (var platform in platforms)
 			{
-				TimeSpan minTime = new TimeSpan(23, 59, 59);
-				foreach (var platform in platforms)
+				foreach (var track in platform.Tracks)
 				{
-					foreach (var track in platform.Tracks)
+					if ((train.Direction.Split(' ')[0] == "Moscow" && track.Direction == "From Moscow") ||
+					(train.Direction.Split(' ')[0] != "Moscow" && track.Direction == "To Moscow"))
 					{
-						if ((train.Direction.Split(' ')[0] == "Moscow" && track.Direction == "From Moscow") ||
-						(train.Direction.Split(' ')[0] != "Moscow" && track.Direction == "To Moscow"))
+						if (track.CurrTrains.Count == 0 ||
+						(train.DepartureTime.TotalMinutes - track.CurrTrains.Last().
+						DepartureTime.TotalMinutes) >= 9)
 						{
-							if (track.CurrTrains.Count == 0 ||
-							(currentTime.TotalMinutes - track.CurrTrains.Last().
-							DepartureTime.TotalMinutes) >= 9)
+							track.CurrTrains.Add(train);
+							train.PlatformAssigned = platform.Id;
+							train.TrackAssigned = track.Id;
+							train.WasPlaned = true;
+							train.setSpeed();
+							break;
+						}
+						else
+						{
+							if (track.CurrTrains.Last().DepartureTime <= minTime)
 							{
-								track.CurrTrains.Add(train);
-								train.PlatformAssigned = platform.Id;
-								train.TrackAssigned = track.Id;
-								train.WasPlaned = true;
-								train.setSpeed();
-								break;
-							}
-							else
-							{
-								if (track.CurrTrains.Last().DepartureTime <= minTime)
 								minTime = track.CurrTrains.Last().DepartureTime;
+								platformTmp = platform;
+								trackTmp = track;
 							}
 						}
 					}
-					if (train.WasPlaned)
-						break;
 				}
-				if (!train.WasPlaned)
-				{
-					train.DepartureTime = TimeSpan.FromMinutes(minTime.TotalMinutes + 10);
-					
-				}
-				
+				if (train.WasPlaned)
+				break;
 			}
+			if (!train.WasPlaned)
+			{
+				train.DepartureTime = TimeSpan.FromMinutes(minTime.TotalMinutes + 10);
+				trackTmp.CurrTrains.Add(train);
+				train.PlatformAssigned = platformTmp.Id;
+				train.TrackAssigned = trackTmp.Id;
+				train.WasPlaned = true;
+				train.setSpeed();
+			}
+			
 		}
 	}
 	
@@ -153,18 +161,19 @@ public class Train
 	private int platformAssigned;
 	private int trackAssigned;
 	private bool hasDrawn = false;
-	private int speed = 10;
+	private bool wasPlaned = false;
+	private int speed = 7;
 	
 	private int timeStoped = 50;
-	static public int speedGlobal = 10;
+	static public int speedGlobal = 7;
 	static public Dictionary<int, Point> positions = new Dictionary<int, Point>
 	{
-		{1, new Point(0, 71) },
-		{2, new Point(1127, 115) },
-		{3, new Point(0, 242) },
-		{4, new Point(1127, 286) },
-		{5, new Point(0, 428) },
-		{6, new Point(1127, 472) }
+		{1, new Point(0, 71 + 177) },
+		{2, new Point(1127, 115 + 177) },
+		{3, new Point(0, 242 + 177) },
+		{4, new Point(1127, 286 + 177) },
+		{5, new Point(0, 428 + 177) },
+		{6, new Point(1127, 472 + 177) }
 	};
 	
 	public int Id { get => id; set => id = value; }
@@ -178,6 +187,7 @@ public class Train
 	public bool HasDrawn { get => hasDrawn; set => hasDrawn = value; }
 	public int Speed { get => speed; set => speed = value; }
 	public int TimeStoped { get => timeStoped; set => timeStoped = value; }
+	public bool WasPlaned { get => wasPlaned; set => wasPlaned = value; }
 	
 	public Train(int id, TimeSpan departureTime, TimeSpan arrivalTime, string direction, string type)
 	{
@@ -198,7 +208,7 @@ public class Train
 		pic.Location = pos;
 	}
 	
-	public void setDirection()
+	public void setSpeed()
 	{
 		if (trackAssigned % 2 == 0)
 		Speed = -Speed;
@@ -211,11 +221,13 @@ public class Train
 		return pic.Location.X >= width;
 	}
 }
+}
 \end{lstlisting}
 
 \subsection{Демонстрация работы программы}
 
-На рисунках \ref{img:demon1}--\ref{img:demon2} приведены результаты тестирования.
+На рисунках \ref{img:demon1}--\ref{img:demon2} приведен интерфейс программы,
+сделанны студентом Фам Минь Хиеу.
 \begin{figure}[h]
 	\centering
 	\includegraphics[height=0.35\textheight]{img/examples/demon1.png}

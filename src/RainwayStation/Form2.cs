@@ -14,7 +14,7 @@ namespace RainwayStation
     {
         private Station station;
         public static DateTime fastTime = new DateTime(2024, 8, 23, 12, 0, 0);
-        private int speedFactor = 15;
+        private int speedFactor =50;
         public Form2(Station station)
         {
 
@@ -35,7 +35,8 @@ namespace RainwayStation
             {
                 string platform = train.PlatformAssigned == 0 ? "-" : train.PlatformAssigned.ToString();
                 string track = train.TrackAssigned == 0 ? "-" : train.TrackAssigned.ToString();
-                string[] row = { "Поезд " + train.Id, train.Direction, train.Type, train.DepartureTime.ToString(), platform, track };
+                TimeSpan time = TimeSpan.FromMinutes(train.DepartureTime.TotalMinutes + 0);
+                string[] row = { "Поезд " + train.Id, train.Direction, train.Type, time.ToString(), platform, track };
                 var item = new ListViewItem(row);
                 listView1.Items.Add(item);
             }

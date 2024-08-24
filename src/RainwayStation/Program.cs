@@ -37,13 +37,8 @@ namespace RainwayStation
             };
 
             var station = new Station("Center Station", platForms);
-<<<<<<< HEAD
-            int hourTest = 23;
-            int minuteTest = 43;
-=======
             int hourTest = 12;
-            int minuteTest = 1;
->>>>>>> 2e16790b62fa59c3cb6eed039614c581a4ca96cf
+            int minuteTest = 0;
             var trains = new List<Train>
             {
                 new Train(1, new TimeSpan(hourTest, minuteTest + 1, 0), new TimeSpan(17, 20, 0), "Moscow - Kazan", "passing"),
@@ -52,11 +47,13 @@ namespace RainwayStation
                 new Train(8, new TimeSpan(hourTest, minuteTest + 2, 0), new TimeSpan(17, 30, 0), "Moscow - Tula", "passing"),
                 new Train(9, new TimeSpan(hourTest, minuteTest + 2, 0), new TimeSpan(17, 30, 0), "Moscow - Tula", "passing"),
                 new Train(10, new TimeSpan(hourTest, minuteTest + 2, 0), new TimeSpan(17, 30, 0), "Moscow - Tula", "passing"),
-
-                new Train(3, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(14, 50, 0), "Moscow - Kazan", "terminal"),
-                new Train(4, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(17, 30, 0), "Moscow - Kazan", "passing"),
-                new Train(5, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(14, 50, 0), "Moscow - Kazan", "passing"),
-                new Train(6, new TimeSpan(hourTest, minuteTest + 15, 30), new TimeSpan(17, 20, 0), "Moscow - Kazan", "passing")
+                new Train(8, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(17, 30, 0), "Moscow - Tula", "passing"),
+                new Train(9, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(17, 30, 0), "Moscow - Tula", "passing"),
+                new Train(10, new TimeSpan(hourTest, minuteTest + 3, 0), new TimeSpan(17, 30, 0), "Moscow - Tula", "passing"),
+                //new Train(3, new TimeSpan(hourTest, minuteTest + 8, 0), new TimeSpan(14, 50, 0), "Moscow - Tula", "terminal"),
+                //new Train(4, new TimeSpan(hourTest, minuteTest + 4, 0), new TimeSpan(17, 30, 0), "Moscow - Peter", "passing"),
+                //new Train(5, new TimeSpan(hourTest, minuteTest + 2, 0), new TimeSpan(14, 50, 0), "Moscow - Tula", "passing"),
+                //new Train(6, new TimeSpan(hourTest, minuteTest + 8, 30), new TimeSpan(17, 20, 0), "Moscow - Kazan", "passing")
             };
 
             foreach (var train in trains)

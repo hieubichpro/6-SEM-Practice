@@ -20,10 +20,10 @@ namespace RainwayStation
         private int trackAssigned;
         private bool hasDrawn = false;
         private bool wasPlaned = false;
-        private int speed = 2;
+        private int speed = 7;
 
         private int timeStoped = 50;
-        static public int speedGlobal = 2;
+        static public int speedGlobal = 7;
         static public Dictionary<int, Point> positions = new Dictionary<int, Point>
         {
             {1, new Point(0, 71 + 177) },
