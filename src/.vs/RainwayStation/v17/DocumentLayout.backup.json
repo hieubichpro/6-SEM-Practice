@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|c:\\users\\abcd2\\onedrive\\desktop\\6-sem-practice\\src\\rainwaystation\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\img\\vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\img\\vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\rainwaystation\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E59E336-F109-47AC-BD3F-2251825ECCAE}|RainwayStation\\RainwayStation.csproj|solutionrelative:rainwaystation\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Platform.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Platform.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Platform.cs",
+              "RelativeToolTip": "RainwayStation\\Platform.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:10:17.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\img\\vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg",
+              "RelativeDocumentMoniker": "RainwayStation\\img\\vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\img\\vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg",
+              "RelativeToolTip": "RainwayStation\\img\\vecteezy_horizontal-straight-traintrack-railroad-railway-contour_17125328.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-13T11:10:17.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Form2.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Form2.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Form2.cs",
+              "RelativeToolTip": "RainwayStation\\Form2.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-13T11:10:17.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\App.config",
+              "RelativeDocumentMoniker": "RainwayStation\\App.config",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\App.config",
+              "RelativeToolTip": "RainwayStation\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-13T11:10:17.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Form2.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Form2.cs",
+              "ToolTip": "E:\\My_semester_6\\6-SEM-Practice\\src\\RainwayStation\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-09-13T11:10:17.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Train.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Train.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Train.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Train.cs",
+              "RelativeToolTip": "RainwayStation\\Train.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:10:17.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Track.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Track.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Track.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Track.cs",
+              "RelativeToolTip": "RainwayStation\\Track.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:10:17.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Station.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Station.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Station.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Station.cs",
+              "RelativeToolTip": "RainwayStation\\Station.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAC0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:10:17.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Program.cs",
+              "RelativeDocumentMoniker": "RainwayStation\\Program.cs",
+              "ToolTip": "C:\\Users\\abcd2\\OneDrive\\Desktop\\6-SEM-Practice\\src\\RainwayStation\\Program.cs",
+              "RelativeToolTip": "RainwayStation\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T11:10:18.141Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
